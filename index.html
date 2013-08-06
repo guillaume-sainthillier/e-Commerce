@@ -13,7 +13,9 @@
 
   <title>e-Commerce</title>
   <meta name="description" content="e-Commerce est un site de simulation de vente de materiel informatique dans le cadre d'un projet de l'I.U.T Informatique de Blagnac">
+
   <meta name="viewport" content="width=device-width,initial-scale=1">
+
 </head>
 
 <body>
@@ -27,64 +29,69 @@
       <div id="main" role="main">
         <div class="download-bar">
         <div class="inner">
-          <a href="https://github.com/guillaume-sainthillier/e-Commerce/tarball/master" class="download-button tar"><span>Télécharger</span></a>
-          <a href="https://github.com/guillaume-sainthillier/e-Commerce/zipball/master" class="download-button zip"><span>Télécharger</span></a>
-          <a href="https://github.com/guillaume-sainthillier/e-Commerce" class="code">Projet GitHub</a>
+          <a href="https://github.com/guillaume-sainthillier/e-Commerce/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/guillaume-sainthillier/e-Commerce/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/guillaume-sainthillier/e-Commerce" class="code">View e-Commerce on GitHub</a>
         </div>
         <span class="blc"></span><span class="trc"></span>
         </div>
         <article class="markdown-body">
-          <h3>
-<a name="auteurs" class="anchor" href="#auteurs"><span class="octicon octicon-link"></span></a>Auteurs</h3>
+          <h2>
+<a name="auteurs" class="anchor" href="#auteurs"><span class="octicon octicon-link"></span></a>Auteurs</h2>
 
-<p>Guillaume Sainthillier <a href="mailto:guillaume.sainthillier@gmail.com">guillaume.sainthillier@gmail.com</a><br>
-Laris Nadjar <a href="mailto:laris.nadjar@gmail.com">laris.nadjar@gmail.com</a><br></p>
+<p>Laris Nadjar <a href="mailto:laris.nadjar@gmail.com">laris.nadjar@gmail.com</a><br>
+Guillaume Sainthillier <a href="mailto:guillaume.sainthillier@gmail.com">guillaume.sainthillier@gmail.com</a><br></p>
 
-<h3>
-<a name="d%C3%A9ploiement" class="anchor" href="#d%C3%A9ploiement"><span class="octicon octicon-link"></span></a>Déploiement</h3>
+<h2>
+<a name="r%C3%A9cup%C3%A9ration" class="anchor" href="#r%C3%A9cup%C3%A9ration"><span class="octicon octicon-link"></span></a>Récupération</h2>
 
-<p>Pour déployer l'application, veuillez suivre ces indications:</p>
+<p>Si vous possédez <a href="http://git-scm.com/downloads">Git</a>, tapez dans un invité de commande:</p>
 
 <pre><code>$ cd path/to/www
 $ git clone https://github.com/guillaume-sainthillier/e-Commerce.git
 </code></pre>
 
-<h3>
-<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
+<p>Si vous ne possédez pas Git (ce qui est déconseillé), téléchargez le projet au format Zip ou Tar.gz, et extrayez le dans le dossier www de votre serveur apache.</p>
 
-<p>Adaptez les variables host,user,pass et db du fichier <strong>includes/utils.php</strong> à la configuration de votre serveur.<br>
+<h2>
+<a name="d%C3%A9ploiement" class="anchor" href="#d%C3%A9ploiement"><span class="octicon octicon-link"></span></a>Déploiement</h2>
+
+<p>Adaptez les variables <strong>$host</strong>,**$user**,**$pass** et <strong>$db</strong> du fichier <strong>includes/utils.php</strong> suivant la configuration de votre serveur.<br>
 Importez les fichier <strong>sql/e-Commerce.sql</strong> et <strong>sql/trigger.sql</strong> dans votre base de données.<br></p>
 
-<h3>
-<a name="pr%C3%A9-requis" class="anchor" href="#pr%C3%A9-requis"><span class="octicon octicon-link"></span></a>Pré requis</h3>
+<h2>
+<a name="pr%C3%A9-requis" class="anchor" href="#pr%C3%A9-requis"><span class="octicon octicon-link"></span></a>Pré requis</h2>
 
 <p>Vous devez avoir installé:</p>
 
 <ul>
-<li>un serveur apache et php</li>
-<li>une base de données : mysql ou postgresql</li>
+<li>un serveur apache et PHP5</li>
+<li>une base de données MySQL</li>
 </ul><p>En fait, reportez vous aux installations de :</p>
 
 <ul>
-<li>sous windows : wamp (<a href="http://www.wampserver.com/">http://www.wampserver.com/</a>) ou easyphp(<a href="http://easyphp.fr/">http://easyphp.fr/</a>)</li>
-<li>sous linux : lamp</li>
-</ul><p>Si vous utilisez postgre sql, voir install sur le site :
-<a href="http://www.postgresqlfr.org/">http://www.postgresqlfr.org/</a></p>
-
-<p>Si vous debutez, il est plus simple de garder mysql qui est packagee avec
-easyphp ou wamp.</p>
+<li>sous Windows : <a href="http://www.wampserver.com/">WAMP</a> ou <a href="http://easyphp.fr/">easyphp</a>
+</li>
+<li>sous Linux : <a href="http://doc.ubuntu-fr.org/lamp">LAMP</a>
+</li>
+</ul><p>Si vous débutez, il est plus simple de garder MySQL qui est packagé avec  wamp ou easyphp.</p>
         </article>
       </div>
     </div>
     <footer>
       <div class="owner">
-      <p><a href="https://github.com/guillaume-sainthillier" class="avatar"><img src="https://secure.gravatar.com/avatar/5cad04e4619bfb67f1a42b110a878451?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> Projet maintenu par <a href="https://github.com/guillaume-sainthillier">guillaume-sainthillier</a> </p>
+      <p><a href="https://github.com/guillaume-sainthillier" class="avatar"><img src="https://secure.gravatar.com/avatar/00ee100d981d0d7c1ffe21de8aaca5e2?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/guillaume-sainthillier">guillaume-sainthillier</a> maintains <a href="https://github.com/guillaume-sainthillier/e-Commerce">e-Commerce</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
       </div>
     </footer>
   </div>
   <div class="current-section">
-    <a href="#top">Remonter en début de page</a>
-    <a href="https://github.com/guillaume-sainthillier/e-Commerce/tarball/master" class="tar">tar</a><a href="https://github.com/guillaume-sainthillier/e-Commerce/zipball/master" class="zip">Zip</a><a href="" class="code">Code source</a>
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/guillaume-sainthillier/e-Commerce/tarball/master" class="tar">tar</a><a href="https://github.com/guillaume-sainthillier/e-Commerce/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
     <p class="name"></p>
   </div>
 
