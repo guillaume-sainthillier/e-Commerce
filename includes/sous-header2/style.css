@@ -1,0 +1,221 @@
+/*                     */
+/* Mise forme générale */
+/*                     */
+html, body {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+font-size: 10pt;
+line-height: 13pt;
+text-align: left;
+color: black;
+background: url("images/background.jpg") white repeat-x left top;
+margin: 0;
+padding-bottom: 5px;
+}
+/* Conteneur de la Page */
+#container {
+width: 800px;
+/* top/bottom right/left */
+margin: auto;
+margin-left:250px;
+padding: 0;
+}
+/* Header */
+#header {
+width: 990px;
+height: 330px;
+background: url("images/header.jpg") transparent no-repeat left top;
+}
+/* Logo */
+#logo {
+width: 460px;
+height: 80px;
+background: url("images/logo.jpg") no-repeat left top;
+/* top right bottom left */
+margin: 250px 0 0 10px;
+float: left;
+}
+/* Colonne Principale */
+#principale {
+width: 660px;
+text-align: justify;
+float: left;
+/* top right bottom left */
+margin: 5% 0 15px 10px;
+}
+/* Colonne Gauche */
+#gauche {
+width: 300px;
+line-height: 13.5pt;
+text-align: left;
+float: left;
+position:absolute;
+left:10px;
+margin-bottom: 15px;
+}
+
+/* Footer */
+#footer {
+width: 990px;
+font-size: 8pt;
+padding-top: 10px;
+clear: both;
+border-top: 1px solid black;
+}
+
+/*                */
+/* Menu Superieur */
+/*                */
+
+
+.bloc1 h4
+{
+	width: 280px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12pt;
+	margin: 4px 0 0 -10px;
+	padding: 0;
+	background: #78D9F9;
+	border: 1px solid white;
+}
+
+
+#on
+{
+	width: 260px;
+	height: 25px;
+	margin: 4px 0 0 -10px;
+	padding: 0;
+	background: #78D9F9;
+	border: 1px solid white;
+}
+/*       */
+/* Liens */
+/*       */
+
+/* Liens Menu Superieur */
+#top_menu a:link, #top_menu a:visited {
+color: #3974f5;
+text-decoration: none;
+display: block;
+}
+#top_menu a:active, #top_menu a:hover, #top_menu #on {
+color: white;
+text-decoration: none;
+}
+
+/* Lien Normaux */
+a:link, a:visited {
+text-decoration: none;
+color: #004900;
+background-color: transparent;
+outline: none;
+}
+a:active, a:hover {
+text-decoration: none;
+color: black;
+outline: none;
+}
+
+/*                      */
+/*        Titres        */
+/*                      */
+
+/* Titre de Page */
+#header h1 {
+width: 990px;
+height: 20px;
+line-height: 20px;
+color: white;
+font-size: 10pt;
+text-align: center;
+margin-top: 10px;
+padding: 0;
+float: left;
+}
+/* Titres Colonne Principale */
+#principale h1, #galerie h1 {
+font-size: 16pt;
+text-align: left;
+color: #004900;
+/* top right bottom left */
+margin: 20px 0 10px 0;
+}
+/* Sous Titres Colonne Principale */
+#principale h2, #galerie h2  {
+font-size: 12pt;
+text-align: left;
+color: #880a1d;
+/* top/bottom right/left */
+margin: 5px 0;
+}
+/* Titre Bloc Colonne Droite */
+
+
+
+
+/* Bloc Colonne Droite */
+.bloc1 {
+text-align: center;
+width: 260px;
+height: 230px;
+background: #CDF2FB;
+border: 1px solid black;
+position: absolute;
+top:120px;
+left:760px;
+padding:0;
+margin: 0;
+font-size: 18pt;
+line-height: 20pt;
+}
+
+
+.bloc1 dl
+{
+	padding-top: 0;
+}
+
+.bloc1 dl, .bloc1 dl dd
+{
+	width: 260px;
+	margin: 0;
+}
+
+.bloc1 dl dd
+{
+	border:1px solid black
+}
+
+#top-line
+{
+	display:none;
+}
+.nobord {
+border-top: 1px solid white;
+border-left: 1px solid white;
+}
+.tdd {
+width: 170px;
+text-align: left;
+font-weight: bold;
+}
+
+.lien
+{
+	color: #004900;
+}
+.lien:hover
+{
+	color: #880a1d;
+}
+
+h1 span
+{
+	color: #004900;
+}
+
+.ac_results {
+	background-color:#004900;
+	color:black;
+}

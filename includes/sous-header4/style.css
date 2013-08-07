@@ -1,0 +1,349 @@
+/*                     */
+/* Mise forme générale */
+/*                     */
+html {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 9pt;
+line-height: 13pt;
+text-align: center;
+color: #ffffff;
+background: url("images/background.jpg") repeat-x left top;
+background-color: #085289;
+padding: 0; 
+margin: 0;
+}
+html, body {
+text-align: center;
+height: 100%;
+padding: 0; 
+margin: 0;
+}
+/* Conteneur de la Page */
+#container {
+width: 990px;
+min-height: 100%;
+background: url("images/content.jpg") no-repeat left top;
+/* top/bottom right/left */
+margin: 0 auto;
+padding: 0;
+}
+/* Hack pour IE */
+* html #container {
+height: 100%;
+}
+/* Logo */
+#logo {
+width: 576px;
+height: 120px;
+background: url("images/logo.jpg") no-repeat left top;
+/* top/bottom right/left */
+margin: 0 auto;
+}
+/* Colonne Gauche */
+#gauche {
+width: 220px;
+font-size: 8pt;
+text-align: left;
+float: left;
+display: inline;
+/* top right bottom left */
+margin: 0 18px 0 0;
+background: url("images/gauche_bg.jpg") repeat-y left top;
+}
+#gauche .col {
+width: 200px;
+min-height: 180px;
+height: auto !important;
+height: 180px;
+float: left;
+display: inline;
+background: url("images/gauche.jpg") no-repeat left top;
+/* top right bottom left */
+padding: 15px 10px 0 10px;
+}
+/* Hack pour IE */
+* html #gauche .col {
+width: 220px;
+}
+#gauche .foot {
+width: 220px;
+height: 19px;
+float: left;
+background: url("images/gauche_foot.jpg") no-repeat left top;
+}
+/* Colonne Droite */
+#droite {
+width: 750px;
+text-align: justify;
+float: left;
+display: inline;
+background: url("images/droite_bg.jpg") repeat-y left top;
+}
+#droite .col {
+width: 730px;
+min-height: 180px;
+height: auto !important;
+height: 180px;
+float: left;
+background: url("images/droite.jpg") no-repeat left top;
+/* top right bottom left */
+padding: 1px 10px 0 10px;
+}
+/* Hack pour IE */
+* html #droite .col {
+width: 750px;
+}
+#droite .foot {
+width: 750px;
+height: 19px;
+float: left;
+background: url("images/droite_foot.jpg") no-repeat left top;
+}
+/* Footer */
+#footer {
+width: 100%;
+height: 163px;
+font-size: 8pt;
+background-color: black;
+color: #DDD;
+text-align: center;
+background: url("images/footer_bg.jpg") repeat-x left top;
+/* top right bottom left */
+margin: -163px auto 0 auto;
+}
+#footer div {
+width: 990px;
+height: 163px;
+/* top/bottom right/left */
+margin: 0 auto;
+background: url("images/footer.jpg") no-repeat left top;
+}
+#footer_content {
+width: 990px;
+height: 20px;
+position: relative;
+top: 143px;
+left: 0;
+margin: 5px auto;
+text-align: center;
+}
+/* Magic position fixed footer */
+#clearfooter {
+height: 163px;
+clear: both;
+}
+/* Bloc Flottant Aligné à Droite */
+.bloc_droite {
+width: 250px;
+border-left: 1px dotted #b2d6ed;
+border-bottom: 1px dotted #b2d6ed;
+background: url("images/bloc_droite_bg.jpg") no-repeat left bottom;
+float: right;
+margin-left: 10px;
+padding-left: 10px;
+}
+/* Bloc présentation site */
+.site {
+min-height: 110px;
+height: auto !important;
+height: 110px;
+border-bottom: 1px dotted white;
+margin-bottom: 10px;
+clear: both;
+}
+
+/*                */ 
+/* Menu Superieur */
+/*                */
+
+#top-menu {
+width: 990px;
+height: 40px;
+text-align: center;
+/* top/bottom right/left */
+margin: 10px auto;
+}
+#top-menu dl {
+width: 980px;
+margin: auto;
+}
+#top-menu dd {
+width: 140px;
+height: 30px;
+font-size: 13pt;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+text-align: center;
+display: inline;
+float: left;
+margin: 0;
+}
+#top-menu a:link, #top-menu a:visited {
+width: 140px;
+height: 30px;
+line-height: 30px;
+display: block;
+color: #b2d6ed;
+background-color: transparent;
+text-decoration: none;
+background: url("images/off.png") no-repeat left bottom;
+}
+* html #top-menu a:link, * html #top-menu a:visited {
+background: url("images/off.gif") no-repeat left bottom;
+}
+#top-menu a:active, #top-menu a:hover, #top-menu #on {
+width: 128px;
+height: 30px;
+line-height: 25px;
+display: block;
+color: #00ff00;
+text-decoration: none;
+background: url("images/on.png") no-repeat left top;
+}
+* html #top-menu a:active, * html #top-menu a:hover, * html #top-menu #on {
+background: url("images/on.gif") no-repeat left top;
+}
+/*                     */
+/*        Liens        */
+/*                     */
+
+a:link, a:visited {
+color: #b2d6ed;
+text-decoration: none;
+background-color: transparent;
+outline: none;
+}
+a:active, a:hover {
+color: white;
+background-color: transparent;
+text-decoration: none;
+outline: none;
+}
+
+/*                      */
+/*        Titres        */
+/*                      */
+
+/* Titres Droite */
+#droite h1 {
+height: 25px;
+line-height: 20px;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 16pt;
+font-weight: normal;
+text-align: left;
+text-indent: 40px;
+color: white;
+background-color: transparent;
+/* top right bottom left */
+margin: 10px 0 5px 0;
+padding: 0;
+background: url("images/ico_h1_d.gif") no-repeat left top;
+border-bottom: 1px dotted #b2d6ed;
+clear: both;
+}
+/* Sous Titres */ 
+h2 {
+font-size: 11pt;
+text-align: left;
+color: #00ff00;
+background-color: transparent;
+/* top/bottom left/right */
+margin: 5px 0;
+}
+/* Sous Titres */ 
+h3 {
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 9pt;
+text-align: left;
+color: white;
+background-color: transparent;
+/* top/bottom left/right */
+margin: 5px 0;
+}
+/* Titres Gauche */
+#gauche h1 {
+height: 20px;
+font-family: Tahoma, Helvetica, sans-serif; 
+font-size: 11pt;
+font-weight: bold;
+text-align: center;
+color: white;
+background-color: transparent;
+/* top/bottom left/right */
+margin: 5px 0;
+background: url("images/ico_h1_g.gif") no-repeat left bottom;
+clear: both;
+}
+
+
+
+/* Listes */
+ul {
+padding: 0;
+/* top right bottom left */
+margin: 5px 0 15px 0;
+}
+li {
+list-style-position: inside;
+list-style-type: circle;
+}
+p {
+/* top/bottom left/right */
+margin: 5px auto;
+}
+
+fieldset {
+text-align: center;
+width: 60%;
+border: 1px solid white;
+float: left;
+margin: 5px 0;
+}
+legend {
+font-weight: bold;
+color: white;
+background-color: #085289;
+border: 1px solid white;
+/* top/bottom left/right */
+padding: 1px 5px;
+}
+
+#top-line
+{
+	display: none;
+}
+
+h1 span {
+color: lightblue;
+}
+
+.lien
+{
+	color :#82ff16;
+}
+.lien:hover
+{
+	color:white;
+}
+
+a{
+	text-decoration:none;
+}
+
+.top-menu h4
+{
+	display:none;
+}
+
+#recherche{
+	background-color:#b2d6ed;
+}
+
+.ac_results {
+	background-color:#085289 ;
+}
+
+.ac_odd {
+	background-color: #b2d6ed;
+	color:black;
+}

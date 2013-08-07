@@ -1,0 +1,349 @@
+/*                     */
+/* Mise forme générale */
+/*                     */
+html {
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 10pt;
+text-align: left;
+color: #bfbfbf;
+background-color: #111111;
+background-image: url("images/gauche_bg.jpg");
+background-repeat: repeat-y;
+background-position: left top;
+padding: 0; 
+margin: 0;
+}
+body {
+height: 100%;
+padding: 0; 
+margin: 0;
+background-image: url("images/background.jpg");
+background-repeat: repeat-x;
+background-position: left top;
+}
+/* Conteneur de la Page */
+#container {
+width: 990px;
+height: 100%;
+background-image: url("images/gauche_bg.jpg");
+background-repeat: repeat-y;
+background-position: left top;
+/* top right bottom left */
+margin: 0;
+padding: 0;
+}
+/* Header */
+#header {
+width: 990px;
+height: 90px;
+background-image: url("images/header.jpg");
+background-repeat: repeat-x;
+background-position: left top;
+clear: both;
+}
+/* Logo */
+#logo {
+width: 83px;
+height: 90px;
+background-image: url("images/logo.jpg");
+background-repeat: no-repeat;
+background-position: left top;
+float: left;
+}
+/* Top Line */
+#top-line {
+width: 904px;
+height: 45px;
+line-height: 45px;
+text-align: right;
+background-image: url("images/top_line.jpg");
+background-repeat: no-repeat;
+background-position: left top;
+float: left;
+}
+/* Image effet 3D */
+#splash {
+width: 990px;
+height: 208px;
+background-image: url("images/splash.jpg");
+background-repeat: no-repeat;
+background-position: left top;
+clear: both;
+}
+/* Colonne Gauche */
+#gauche {
+width: 190px;
+float: left;
+display: inline;
+/* top right bottom left */
+margin: 0 20px 0 10px;
+}
+/* Colonne Droite */
+#droite {
+width: 769px;
+text-align: justify;
+float: left;
+display: inline;
+}
+
+#footer {
+width: 790px;
+text-align: center;
+font-size: 7pt;
+color: #5e5e5e;
+background-color: transparent;
+clear: both;
+/* top right bottom left */
+padding: 10px 0 5px 200px;
+}
+#footer:first-line {
+text-decoration: overline;
+}
+/* Hack pour IE */
+* html #footer {
+width: 990px;
+}
+
+a
+{
+	text-decoration: none;
+}
+/*                */
+/* Menu Superieur */
+/*                */
+
+#top-menu {
+width: 907px;
+height: 45px;
+text-align: center;
+float: left;
+}
+#top-menu dl {
+width: 896px;
+margin: auto;
+}
+#top-menu dd {
+width: 128px;
+height: 23px;
+font-family: Arial, Helvetica, sans-serif; 
+text-align: center;
+background-image: url("images/off.jpg");
+background-repeat: no-repeat;
+background-position: left top;
+display: inline;
+float: left;
+margin: 0;
+}
+#top-menu a:link, #top-menu a:visited {
+width: 128px;
+height: 23px;
+line-height: 20px;
+display: block;
+color: #3d3d3d;
+font-weight: bold;
+background-color: transparent;
+text-decoration: none;
+}
+#top-menu a:active, #top-menu a:hover, #top-menu #on ,#top-menu #horloge  {
+width: 128px;
+height: 41px;
+line-height: 35px;
+display: block;
+color: white;
+text-decoration: none;
+background-image: url("images/on.jpg");
+background-repeat: no-repeat;
+background-position: left top;
+}
+
+/*                     */
+/*        Liens        */
+/*                     */
+
+a:link, a:visited {
+color: #4bb8f0;
+text-decoration: none;
+background-color: transparent;
+outline: none;
+}
+a:active, a:hover {
+color: white;
+background-color: transparent;
+text-decoration: none;
+outline: none;
+}
+
+/*                      */
+/*        Titres        */
+/*                      */
+
+/* Titres */
+h1 {
+font-size: 16pt;
+font-weight: normal;
+text-align: left;
+color: #5e5e5e;
+background-color: transparent;
+/* top right bottom left */
+margin: 0 0 0 0;
+clear: both;
+}
+h1 span {
+color: #bfbfbf;
+font-weight: bold;
+}
+/* Sous Titres */ 
+h2 {
+font-size: 11pt;
+text-align: left;
+color: #3a83c2;
+background-color: transparent;
+/* top/bottom left/right */
+margin: 0 0;
+}
+
+/*                   */
+/*  Eléments divers  */
+/*                   */
+
+/* Pas de bordure sur les images par défaut */
+img {
+border: none;
+vertical-align: middle;
+}
+/* Bordure sur les images */
+.bord {
+border: 3px solid white;
+}
+/* Alignement flottant à gauche */
+.left {
+/* top right bottom left */
+margin: 0 10px 0 0;
+float: left;
+}
+/* Alignement flottant à droite */
+.right {
+/* top right bottom left */
+margin: 0  0 5px 10px;
+float: right;
+}
+/* Alignement centré */
+.center {
+text-align: center;
+}
+.end{
+clear: both;
+}
+small {
+font-size: 7pt;
+}
+/* Listes */
+ul {
+padding: 0;
+/* top right bottom left */
+margin: 5px 0 15px 0;
+}
+li {
+list-style-position: inside;
+list-style-type: square;
+}
+/* Ligne de séparation */
+.hr {
+height: 1px;
+line-height: 1px;
+color: white;
+background-color: black;
+/* top/bottom left/right */
+margin: 10px auto;
+border: 1px dotted #3d3d3d;
+clear: both;
+}
+p {
+/* top/bottom left/right */
+margin: 5px auto;
+}
+
+/* Hack pour IE */
+* html .date {
+width: 34px;
+height: 47px;
+}
+
+/*               */
+/*  Formulaires  */
+/*               */
+
+form {
+/* top right bottom left */
+margin: 15px  0 15px 0;
+}
+form p {
+/* top/bottom left/right */
+margin: 5px 0;
+}
+
+/*  Formulaire Gauche  */
+#gauche form {
+/* top right bottom left */
+margin: 0  0 15px 0;
+font-size: 8pt;
+}
+/*  Formulaire Header  */
+#top-line form {
+width: 230px;
+height: 22px;
+line-height: 22px;
+/* top right bottom left */
+margin: 12px 0 0 0;
+padding: 0;
+text-align: right;
+float: right;
+}
+#top-line form p {
+line-height: 22px;
+text-align: right;
+vertical-align: middle;
+margin: 0;
+padding: 0;
+}
+.input {
+width: 160px;
+height: 22px;
+line-height: 18px;
+font-size: 10pt;
+color: #4bb8f0;
+background-color: transparent;
+vertical-align: middle;
+background-image: url("images/input.jpg");
+background-repeat: no-repeat;
+background-position: left top;
+padding-left: 5px;
+outline: none;
+border: none;
+}
+/* Hack pour IE */
+* html #top-line .input {
+width: 200px;
+}
+#top-line input {
+vertical-align: top;
+}
+
+
+.lien
+{
+	color: #4bb8f0;
+}
+.lien:hover
+{
+	color: white;
+}
+
+.bloc1 h4
+{
+	display:none;
+}
+
+.ac_results {
+	color:black;
+}

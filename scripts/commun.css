@@ -1,0 +1,141 @@
+a
+{
+	text-decoration: none;
+}
+
+a > img
+{
+	border: none;
+}
+table,td
+{
+	border: thin solid #6495ed;
+	border-collapse:collapse;
+}
+
+th
+{
+	text-align:center;
+}
+
+#none, #none td
+{
+	border :none;
+	padding-bottom:5px;
+	text-align:right;
+}
+
+#none2, #none2 td
+{
+	border :none;
+	text-align :left;
+	position: relative;
+}
+
+
+li.comment {
+    margin-bottom: 20px;
+    overflow: hidden;
+    list-style-type: none;
+}
+li.comment li {
+    margin: 2px 0 0;
+}
+.avatar {
+    float: left;
+    margin-top: 20px;
+    padding: 1px;
+    height: 40px;
+    width: 40px;
+}
+.comment .message {
+    margin-left: 50px;
+}
+.haut {
+    background: url("../images/comment.png") no-repeat scroll 0 0 transparent;
+    height: 40px;
+    margin-right: 10px;
+}
+.haut div {
+    background: url("../images/comment.png") no-repeat scroll -990px 0 transparent;
+    float: right;
+    height: 40px;
+    margin-right: -10px;
+    width: 10px;
+}
+.milieu {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F2F2F2;
+    border-color: lightblue;
+    border-style: solid;
+    border-width: 0 1px;
+    margin: 0 0 0 17px;
+    padding: 1px 0;
+}
+.milieu .i2 {
+    margin: -37px 15px 0;
+    padding-top: 14px;
+    position: relative;
+}
+.milieu span {
+    font-size: 11px;
+   /*color : #3a83c2;*/
+   color: blue;
+}
+.milieu .titre {
+    display: block;
+    left: 5px;
+    position: absolute;
+    top: 0;
+}
+
+.bas {
+    background: url("../images/comment.png") no-repeat scroll 0 -40px transparent;
+    height: 11px;
+    margin-right: 10px;
+}
+.bas div {
+    background: url("../images/comment.png") no-repeat scroll -990px -40px transparent;
+    float: right;
+    height: 11px;
+    margin-right: -10px;
+    width: 10px;
+}
+.message p, .message ul {
+    font-size: 12px;
+    color: black;
+    line-height: 125%;
+    margin-top: 7px;
+}
+
+.infoprod td + td
+{
+	color:red;
+	float:left;
+	padding-left:30px;
+}
+
+
+.coms
+{
+	text-align: right;	
+}
+
+
+textarea
+{
+	margin-left: 25px;
+	background-color: #111111;
+	/*color: #4bb8f0;*/
+	color:#bfbfbf;
+	border : 1px solid #4bb8f0;
+}
+
+.ac_results > b, .ac_results b
+{
+	color: red;
+}

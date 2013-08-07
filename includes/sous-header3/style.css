@@ -1,0 +1,249 @@
+/*                     */
+/* Mise forme générale */
+/*                     */
+html, body {
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 10pt;
+line-height: 13pt;
+text-align: center;
+color: white;
+background-color: black;
+margin: 0;
+padding-bottom: 5px;
+}
+/* Conteneur de la Page */
+#container {
+width: 990px;
+background: url("images/container.jpg") repeat-y left top;
+/* top/bottom right/left */
+margin: 0 auto ;
+padding: 0;
+}
+/* Header */
+#header{
+width: 990px;
+height: 170px;
+background: url("images/header.jpg") no-repeat left top;
+}
+/* Corps */
+#corps {
+width: 990px;
+min-height: 220px;
+background: url("images/corps.jpg") no-repeat left top;
+
+}
+/* Colonne Gauche */
+#droite {
+width: 700px;
+text-align: justify;
+float: left;
+/* top right bottom left */
+margin-top: 20px;
+margin-left: 15px;
+padding-right:30px;
+border-right: 1px dotted white;
+}
+* html #droite{
+width: 700px;
+/* top right bottom left */
+margin: 20px 0 10px 6px;
+}
+/* Colonne Droite */
+#gauche{
+width: 220px;
+text-align: center;
+float: right;
+/* top right bottom left */
+margin: 20px 0 10px 0;
+/* top/bottom right/left */
+padding: 0 10px;
+}
+* html #gauche {
+width: 240px;
+}
+/* Footer */
+#footer {
+width: 990px;
+height: 50px;
+background: url("images/footer.jpg") no-repeat left top;
+clear: both;
+}
+
+
+#footer p {
+width: 840px;
+font-size: 7pt;
+text-align: left;
+color: #0b655f;
+margin-left:150px;
+/* top/bottom right/left */
+padding-top: 15px;
+}
+* html #footer p {
+padding: 0;
+}
+
+
+/*                */
+/* Menu Superieur */
+/*                */
+
+#top-menu  dl{
+width: 990px;
+height: 30px;
+line-height: 30px;
+margin: 0;
+background: url("images/menu.jpg") no-repeat left top;
+position:absolute;
+top:140px;
+}
+#top-menu dd {
+font-size: 11pt;
+font-weight: bold;
+margin-left: 70px;
+display: inline;
+float: left;
+}
+#top-menu  a:link, #top-menu  a:visited {
+color: #82ff16;
+background-color: transparent;
+text-decoration: none;
+}
+#top-menu a:active, #top-menu a:hover, #top-menu #on {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+
+/*       */
+/* Liens */
+/*       */
+
+a:link, a:visited {
+text-decoration: none;
+color: #14c3b4;
+background-color: transparent;
+outline: none;
+}
+a:active, a:hover {
+color: white;
+background-color: transparent;
+outline: none;
+}
+
+/*                      */
+/*        Titres        */
+/*                      */
+
+/* Titres */
+h1 {
+font-size: 13pt;
+font-weight: bold;
+text-align: left;
+color: white;
+background-color: transparent;
+/* top right bottom left */
+margin: 5px 0 5px 0;
+}
+h1 span {
+color: #82ff16;
+}
+/* Sous Titres */ 
+h2 {
+font-size: 11pt;
+text-align: left;
+color: #1466ff;
+background-color: transparent;
+margin: 0;
+}
+h2 span {
+color: white;
+font-size: 10pt;
+font-weight: normal;
+text-decoration: underline;
+margin: 0 !important;
+}
+
+/*                 */
+/* Eléments divers */
+/*                 */
+
+/* Pas de bordure sur les images par défaut */
+img {
+border: none;
+vertical-align: middle;
+margin: 5px;
+}
+/* Bordure sur les images */
+.bord {
+border: 1px dotted white;
+}
+/* Alignement flottant à gauche */
+.left {
+/* top right bottom left */
+margin: 5px 10px 0 0;
+float: left;
+}
+/* Alignement flottant à droite */
+.right {
+/* top right bottom left */
+margin: 5px 0 0 10px;
+float: right;
+}
+/* Alignement centré */
+.center {
+text-align: center;
+}
+small {
+font-size: 7pt;
+}
+/* Listes */
+ul {
+padding: 0;
+/* top right bottom left */
+margin: 5px 0 15px 0;
+text-align: left;
+}
+li {
+list-style-position: inside;
+list-style-type: square;
+}
+/* Ligne de séparation */
+.hr {
+height: 1px;
+line-height: 1px;
+color: white;
+background-color: black;
+/* top/bottom left/right */
+margin: 10px auto;
+border: 1px dotted white;
+clear: both;
+}
+
+#top-line,.bloc1 h4
+{
+	display:none;
+}
+
+#splash
+{
+	display:none;
+}
+
+.lien
+{
+	color :#14c3b4;
+}
+.lien:hover
+{
+	color:white;
+}
+
+.ac_results {
+	background-color:#82ff16;
+	color:black;
+}
+
+.ac_odd {
+	background-color:14c3b4;
+}
